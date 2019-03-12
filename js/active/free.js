@@ -1,0 +1,1 @@
+define("/active/free",["/common/sensors"],function(o){$(".activity").addClass("active").attr("href","javascript:;"),$(".showcooperation, #cooperation-pop").on("mouseenter",function(){$("#cooperation-pop").show()}),$(".showcooperation, #cooperation-pop").on("mouseleave",function(o){$("#cooperation-pop").hide()})}),require(["/active/free"]);
